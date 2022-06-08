@@ -14,7 +14,7 @@ public class ItemsControllerTest {
 		ItemsRepository itemsRepository = new ItemsRepository();
 
 		Item item = new Item();
-		String itemDescription = "Tomate";
+		String itemDescription = "patata";
 		boolean itemCheked = false;
 		item.setDescription(itemDescription);
 		item.setChecked(itemCheked);
