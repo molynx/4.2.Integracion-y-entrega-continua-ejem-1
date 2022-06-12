@@ -13,7 +13,7 @@ Para construir el JAR del proyecto (y lanzar los test):
 ## Lanzar la aplicación en local (en local)
 prueba
 Para lanzar la aplicación el local:
-
+h
 ```
     java -jar target/items-0.0.1-SNAPSHOT.jar 
 ```
