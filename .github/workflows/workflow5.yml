@@ -1,0 +1,19 @@
+name: workflow5
+
+on: 
+  pull_request :
+    branches:
+      - 'release/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "PR to release"
+      - uses: actions/checkout@v2
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '17'
+      - run: echo "workflow 5"
