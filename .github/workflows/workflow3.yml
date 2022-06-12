@@ -17,6 +17,4 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '17'
-      - run: mvn -Dtest="es.urjc.code.daw.library.unitary.**" test
-      - run: mvn -Dtest="es.urjc.code.daw.library.e2e.rest.**" test
-      - run: mvn -Dtest="es.urjc.code.daw.library.e2e.selenium.**" test
+      - run: echo "workflow 3"
